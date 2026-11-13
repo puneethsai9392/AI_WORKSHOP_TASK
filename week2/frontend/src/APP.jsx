@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import MarkdownResponse from "./MarkdownResponse";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000/api/chat";
+const API_URL = "https://rino-ai-backend.onrender.com/api/chat";
 
 export default function App() {
   const [message, setMessage] = useState("");
